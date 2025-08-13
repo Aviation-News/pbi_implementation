@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Power BI Test</title>
+    <script src="https://cdn.jsdelivr.net/npm/powerbi-client@2.22.0/dist/powerbi.min.js"></script>
+</head>
+<body>
+    <h1>Power BI Test Page</h1>
+    <div id="status">Loading...</div>
+    <div id="reportContainer" style="width: 100%; height: 600px; border: 1px solid #ccc;"></div>
+
+    <script>
+        console.log("Page loaded, testing API...");
+        document.getElementById('status').innerText = "Testing connection...";
+        
+        fetch('http://localhost:5000/get-embed-token')
+            .then(response => {
+                console.log("Response status:", response.status);
+                return response.json();
+            })
+            .then(data => {
+                console.log("API Response:", data);
+                document.getElementById('status').innerText = JSON.stringify(data, null, 2);
+                
+                if (data.success) {
+                    // Try to embed
+                    const models = window['powerbi-client'].models;
+                    const config = {
+                        type: 'report',
+                        id: data.reportId,
+                        embedUrl: data.embedUrl,
+                        accessToken: data.token,
+                        tokenType: models.TokenType.Embed
+                    };
+                    
+                    powerbi.embed(document.getElementById('reportContainer'), config);
+                }
+            })
+            .catch(error => {
+                console.error("Error:", error);
+                document.getElementById('status').innerText = "Error: " + error.message;
+            });
+    </script>
+</body>
+</html>
