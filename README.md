@@ -26,11 +26,11 @@ The application uses the following configuration for connecting to Power BI:
 
 ```python
 CONFIG = {
-  'tenant_id': '65693725-b6ed-4482-838d-454f6f79eafb',
-  'client_id': '8264d2da-a712-455b-bb14-6e10d4db8676',
-  'client_secret': 'gH68Q~DVK4FHki2hwdgOC4we8tF3nZMsM50FhcC9',
-  'group_id': '77200bef-3c01-4ece-b20a-10de91382e51',
-  'report_id': 'df36791a-3629-4b43-b795-9ba2229f37be'
+  'tenant_id': '',
+  'client_id': '',
+  'client_secret': '',
+  'group_id': '',
+  'report_id': ''
 }
 ```
 
