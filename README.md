@@ -2,7 +2,6 @@
 
 This application provides a streamlined way to embed Power BI reports in a web application using Flask as the backend server. It handles authentication with Azure AD, acquires the necessary embed tokens, and renders the Power BI report in a responsive web interface.
 
-![Power BI Embedded](https://raw.githubusercontent.com/microsoft/PowerBI-JavaScript/master/.github/images/logo-powerbi.svg)
 
 ## 🚀 Features
 
