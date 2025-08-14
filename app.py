@@ -12,7 +12,7 @@ CONFIG = {
   'client_id': '8264d2da-a712-455b-bb14-6e10d4db8676',
   'client_secret': 'gH68Q~DVK4FHki2hwdgOC4we8tF3nZMsM50FhcC9',
   'group_id': '77200bef-3c01-4ece-b20a-10de91382e51',
-  'report_id': 'b411babc-f8e8-4a01-b51c-39c1f9560087'
+  'report_id': 'df36791a-3629-4b43-b795-9ba2229f37be'
 }
 
 def get_access_token():
