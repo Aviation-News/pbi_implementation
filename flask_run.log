@@ -1,0 +1,674 @@
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.43:8080
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\__init__.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\base_events.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\concurrent\\__init__.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\concurrent\\futures\\__init__.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\concurrent\\futures\\_base.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\constants.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\coroutines.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\events.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\format_helpers.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\base_futures.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\exceptions.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\base_tasks.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\futures.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\protocols.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\sslproto.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\transports.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\log.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\staggered.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\locks.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\mixins.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\tasks.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\queues.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\timeouts.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\trsock.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\runners.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\streams.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\subprocess.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\taskgroups.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\threads.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\windows_events.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\base_subprocess.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\proactor_events.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\selector_events.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\asyncio\\windows_utils.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\shlex.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\concurrent\\futures\\thread.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\__init__.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\aliases.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\utf_8.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\cp1252.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\utf_8_sig.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\threading.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\warnings.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\_weakrefset.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\types.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\queue.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\collections\\__init__.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\keyword.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\operator.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\reprlib.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\heapq.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\json\\__init__.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\json\\decoder.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\re\\__init__.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\enum.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\functools.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\re\\_compiler.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\re\\_parser.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\re\\_constants.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\re\\_casefix.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\copyreg.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\json\\scanner.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\json\\encoder.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\logging\\__init__.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\traceback.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\linecache.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\textwrap.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\contextlib.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\_colorize.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\__future__.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\weakref.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\string.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\socket.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\selectors.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\subprocess.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\locale.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\signal.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\ssl.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\base64.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\struct.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\inspect.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\ast.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\dis.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\opcode.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\_opcode_metadata.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\__init__.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\tokenize.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\token.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\typing.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\contextvars.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\copy.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\dataclasses.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\datetime.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\numbers.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\pickle.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\_compat_pickle.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\ctypes\\__init__.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\sysconfig\\__init__.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\ctypes\\_endian.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\platform.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\email\\__init__.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\email\\parser.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\email\\feedparser.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\email\\errors.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\email\\_policybase.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\email\\header.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\email\\quoprimime.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\email\\base64mime.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\email\\charset.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\email\\encoders.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\quopri.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\email\\utils.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\urllib\\parse.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\ipaddress.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\email\\_parseaddr.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\abc.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\_abc.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\resources\\__init__.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\resources\\_common.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\pathlib\\__init__.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\pathlib\\_abc.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\glob.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\fnmatch.py', reloading
+ * Detected change in 'C: * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\chess\\engine.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\chess\\__init__.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\OneDrive - Aviation News Ltd\\Desktop\\pbi_implementation\\app.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\netrc.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\OneDrive - Aviation News Ltd\\Desktop\\pbi_implementation\\app_with_cors.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\OneDrive - Aviation News Ltd\\Desktop\\pbi_implementation\\powerbi_all_in_one.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\flask\\typing.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\sansio\\response.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\datastructures\\headers.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\flask\\json\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\flask\\wrappers.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\flask\\globals.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\sansio\\request.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\utils.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\_internal.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\OneDrive - Aviation News Ltd\\Desktop\\pbi_implementation\\app.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\OneDrive - Aviation News Ltd\\Desktop\\pbi_implementation\\app.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\OneDrive - Aviation News Ltd\\Desktop\\pbi_implementation\\app.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\OneDrive - Aviation News Ltd\\Desktop\\pbi_implementation\\app.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\sansio\\response.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\datastructures\\headers.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\flask\\json\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\flask\\wrappers.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\flask\\globals.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\sansio\\request.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\utils.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\_internal.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\OneDrive - Aviation News Ltd\\Desktop\\pbi_implementation\\app.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\OneDrive - Aviation News Ltd\\Desktop\\pbi_implementation\\app.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\OneDrive - Aviation News Ltd\\Desktop\\pbi_implementation\\app.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\OneDrive - Aviation News Ltd\\Desktop\\pbi_implementation\\app.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\OneDrive - Aviation News Ltd\\Desktop\\pbi_implementation\\app.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\OneDrive - Aviation News Ltd\\Desktop\\pbi_implementation\\app.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\OneDrive - Aviation News Ltd\\Desktop\\pbi_implementation\\app.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\OneDrive - Aviation News Ltd\\Desktop\\pbi_implementation\\app.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+z5n2kfra8p0\\Lib\\inspect.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\ast.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\dis.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\opcode.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\_opcode_metadata.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\__init__.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\tokenize.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\token.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\typing.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\contextvars.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\copy.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\dataclasses.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\datetime.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\numbers.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\pickle.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\_compat_pickle.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\ctypes\\__init__.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\sysconfig\\__init__.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\ctypes\\_endian.py', reloading
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\platform.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\chess\\engine.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\chess\\__init__.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\OneDrive - Aviation News Ltd\\Desktop\\pbi_implementation\\app.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\netrc.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+127.0.0.1 - - [05/Jun/2026 14:09:44] "GET / HTTP/1.1" 200 -
+ * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_3.13.3568.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\unicode_escape.py', reloading
+127.0.0.1 - - [05/Jun/2026 14:09:44] "GET /api/filters HTTP/1.1" 200 -
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+127.0.0.1 - - [05/Jun/2026 14:09:48] "GET /api/filters HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\OneDrive - Aviation News Ltd\\Desktop\\pbi_implementation\\app_with_cors.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\OneDrive - Aviation News Ltd\\Desktop\\pbi_implementation\\powerbi_all_in_one.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+127.0.0.1 - - [05/Jun/2026 14:19:28] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\flask\\typing.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\sansio\\response.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\datastructures\\headers.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\flask\\json\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\flask\\wrappers.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\flask\\globals.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\sansio\\request.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\utils.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\_internal.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+127.0.0.1 - - [05/Jun/2026 14:42:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 14:42:14] "GET /api/filters HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 14:42:16] "GET /api/filters HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2026 14:45:00] "POST /api/export/convert HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\OneDrive - Aviation News Ltd\\Desktop\\pbi_implementation\\app.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\OneDrive - Aviation News Ltd\\Desktop\\pbi_implementation\\app.py', reloading
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\OneDrive - Aviation News Ltd\\Desktop\\pbi_implementation\\app.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
+ * Detected change in 'C:\\Users\\SachinBabuAntony\\OneDrive - Aviation News Ltd\\Desktop\\pbi_implementation\\app.py', reloading
+==================================================
+Power BI Embedded Demo Starting...
+==================================================
+Main App: http://localhost:8080/
+Test API: http://localhost:8080/test
+Health:   http://localhost:8080/health
+==================================================
+Default Config:
+   Tenant:  65693725-b6ed-4482-838d-454f6f79eafb
+   Group:   8578855e-dbb3-47b0-b302-437d8572a9a3
+   Report:  d32c0ba1-80fc-4e7a-99f6-f72d42ec61b7
+==================================================
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 172-048-501
